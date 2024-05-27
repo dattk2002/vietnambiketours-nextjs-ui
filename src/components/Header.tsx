@@ -5,14 +5,21 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div className="container pl-80">
+    <div className="container pl-80 pr-80">
       <Image
         src="/images/logo_vnbt.jpg" // Path to your image
         alt="Logo"
         width={238}
         height={80}
       />
-      <nav className="flex space-x-4 text-black">
+      {/* tạo 1 đường line giữa 2 phần và đen  */}
+      {/* {/* tạo thẻ để có thể canh padding  bên phải  */}
+      <div
+        className="flex justify-between
+        border-b-2 border-black w"
+      ></div>
+
+      <nav className="flex space-x-4 ">
         <Link href="/">Home</Link>
         <Link href="/vietnam">Vietnam</Link>
         <Link href="/cambodia">Cambodia</Link>
