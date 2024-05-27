@@ -17,7 +17,7 @@ const Header = () => {
         <Link href="/vietnam">Vietnam</Link>
         <Link href="/cambodia">Cambodia</Link>
         <Link href="/thailand">Thailand</Link>
-        <Link href="/myanmar">Myanmar</Link>
+        <Link href="https://www.facebook.com/MyanmarBicycleTours">Myanmar</Link>
         <Link href="/multi-country">Multi-Country</Link>
         <Link href="/reviews">Reviews</Link>
         <Link href="/contact-us">Contact us</Link>

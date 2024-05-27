@@ -1,7 +1,16 @@
-import React from 'react';
+import Link from "next/link";
+import React from "react";
 
 const Cambodia = () => {
-  return <h1>Cambodia Page</h1>;
-}
+  return (
+    <>
+      <div className="flex space-x-4 p-4">
+        <Link href="/cambodia/from-angkorwat">Biking from Angkor Wat</Link>
+        <Link href="/cambodia/from-phnompenh">Biking from Phnom Penh</Link>
+        
+      </div>
+    </>
+  );
+};
 
 export default Cambodia;
