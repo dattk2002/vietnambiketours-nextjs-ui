@@ -12,7 +12,7 @@ const Header = () => {
         width={238}
         height={80}
       />
-      <nav className="flex space-x-4">
+      <nav className="flex space-x-4 text-black">
         <Link href="/">Home</Link>
         <Link href="/vietnam">Vietnam</Link>
         <Link href="/cambodia">Cambodia</Link>
