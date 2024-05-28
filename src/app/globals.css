@@ -18,32 +18,34 @@
 
 body {
   color: black;
-  font-family: 'Tahoma','Arial','Helvetica', sans-serif;
-
+  font-family: "Tahoma", "Arial", "Helvetica", sans-serif;
 }
 
 @layer utilities {
   .link {
-  /* Các thuộc tính CSS chung cho liên kết */
-}
+    /* Các thuộc tính CSS chung cho liên kết */
+  }
 
-.link.active {
-  font-weight: bold;
-  color: red; /* hoặc bất kỳ màu nào bạn muốn sử dụng để chỉ thị liên kết hoạt động */
-}
+  .link.active {
+    font-weight: bold;
+    color: red; /* hoặc bất kỳ màu nào bạn muốn sử dụng để chỉ thị liên kết hoạt động */
+  }
 
   .text-balance {
     text-wrap: balance;
   }
 }
-figure{
+figure {
   position: relative;
 }
-figcaption{
+figcaption {
   position: absolute;
   left: 100px;
   top: 64px;
   font-style: italic;
   font-size: 12px;
   text-decoration: underline;
+}
+.text-fs li {
+  font-size: 13px;
 }
