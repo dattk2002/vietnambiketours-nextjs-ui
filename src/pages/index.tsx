@@ -5,7 +5,7 @@ import { FaCircle } from "react-icons/fa";
 import { FaCircleHalfStroke } from "react-icons/fa6";
 
 
-const Home = () => {
+const HomePage = () => {
   return (
     <>
       <div className="px-16 flex-col grid gap-4 sm:grid-cols-12">
@@ -112,4 +112,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default HomePage;
