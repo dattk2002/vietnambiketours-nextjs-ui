@@ -23,7 +23,7 @@ const Header = () => {
   console.log(">>pathname", pathname === "/vietnam");
   return (
     <div className="px-16">
-      <div className="container mx-auto px-72">
+      <div className="container mx-auto px-[269px]">
       <Image
         src="/images/logo_vnbt.jpg" 
         alt="Logo"
