@@ -5,18 +5,14 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div className="container pl-80">
-      <figure>
-        <Image
-          src="/images/logo_vnbt.jpg" // Path to your image
-          alt="Logo"
-          width={238}
-          height={80}
-        />
-        <figcaption>An elephant at sunset</figcaption>
+    <div className="  px-16">
+      <div className="container mx-auto px-72">
+         <figure>
+        <Image src="/images/logo_vnbt.jpg" alt="logo"   width={238}
+        height={80}/>
+        <figcaption>Member of ATTA</figcaption>
       </figure>
-
-      <nav className="flex space-x-4 text-black">
+       <nav className="flex space-x-4 ">
         <Link href="/home">Home</Link>
         <Link href="/vietnam">Vietnam</Link>
         <Link href="/cambodia">Cambodia</Link>
@@ -26,6 +22,10 @@ const Header = () => {
         <Link href="/reviews">Reviews</Link>
         <Link href="/contact-us">Contact us</Link>
       </nav>
+      </div>
+     
+      
+     
     </div>
   );
 };

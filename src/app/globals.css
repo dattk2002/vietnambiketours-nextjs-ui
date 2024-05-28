@@ -17,7 +17,7 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
+  color: black;
   background: linear-gradient(
       to bottom,
       transparent,
@@ -30,4 +30,15 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+figure{
+  position: relative;
+}
+figcaption{
+  position: absolute;
+  left: 100px;
+  top: 64px;
+  font-style: italic;
+  font-size: 12px;
+  text-decoration: underline;
 }
