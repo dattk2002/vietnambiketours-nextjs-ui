@@ -2,9 +2,9 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer className="text-green-800 py-8 px-16">
+    <footer className="text-green-800 py-8 ">
       <div className='divide-y'></div>
-      <div className="container mx-auto px-[269px]">
+      <div className="container mx-auto">
         <div className="flex flex-col md:flex-row justify-between border-t border-gray-900 ">
           {/* Contact Information Section */}
           <div className="mb-4 md:mb-0 pt-4 pl-2">
