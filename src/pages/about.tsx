@@ -1,7 +1,7 @@
 // pages/about.tsx
-import Head from 'next/head';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
+import Head from "next/head";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 const About = () => {
   return (
@@ -21,6 +21,6 @@ const About = () => {
       <Footer />
     </div>
   );
-}
+};
 
 export default About;

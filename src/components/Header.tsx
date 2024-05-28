@@ -3,32 +3,12 @@
 import Image from "next/image";
 import Link from "next/link";
 import React, { use } from "react";
-import VietnamImg from "@/components/img-country/VietnamImg";
+import ImgCoutry from "@/components/img-country/ImgCoutry";
 import { useRouter, usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
+import "./../app/globals.css";
 // tạo 1 hàm Header
 const Header = () => {
-  // const [isMounted, setIsMounted] = useState(false);
-
-  // const router = useRouter();
-
-  // useEffect(() => {
-  //   setIsMounted(true);
-  // }, []);
-  // if (!isMounted) {
-  //   return null; // Hoặc một loading spinner, hoặc một nội dung dự phòng khác
-  // }
-  // // Kiểm tra router trước khi sử dụng
-  // if (!router || !router.asPath) {
-  //   console.error("Router is not available");
-  //   return <div>Error: Router is not available</div>; // Hoặc xử lý lỗi khác tùy ý bạn
-  // }
-  // // redirect("/vietnam");
-  // console.log(router.pathname);
-  // const country = router.asPath.replace("/", "").split("/");
-  // console.log(country);
-
-  //  v2
   const [isMounted, setIsMounted] = useState(false);
   const pathname = usePathname();
   const country = pathname ? pathname.replace("/", "").split("/") : []; // Add null check for path
@@ -54,7 +34,7 @@ const Header = () => {
         className="flex justify-between
         border-b-2 border-black w"
       ></div>
-      <VietnamImg country={Array.isArray(country) ? country[0] : ""} />
+      <ImgCoutry country={Array.isArray(country) ? country[0] : ""} />
       <nav className="flex space-x-4 text-black">
         <Link className={`link ${pathname === "/" ? "active" : ""}`} href="/">
           Home
