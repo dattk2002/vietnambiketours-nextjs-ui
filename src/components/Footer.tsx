@@ -4,10 +4,10 @@ const Footer = () => {
   return (
     <footer className="text-green-800 py-8 px-16">
       <div className='divide-y'></div>
-      <div className="container mx-auto px-72">
+      <div className="container mx-auto px-[269px]">
         <div className="flex flex-col md:flex-row justify-between border-t border-gray-900 ">
           {/* Contact Information Section */}
-          <div className="mb-4 md:mb-0 pt-4">
+          <div className="mb-4 md:mb-0 pt-4 pl-2">
             <h4 className="text-xs">VIETNAM</h4>
             <p className="text-xs">Head Office & Bike shop - <a href="https://example.com" className="text-black">map & Connect</a></p>
             <p className="text-xs">Tel/Zalo/WhatsApp (+84) 855075999</p>
