@@ -102,6 +102,10 @@ const Header = () => {
           Contact us
         </Link>
       </nav>
+      </div>
+     
+      
+     
     </div>
   );
 };
