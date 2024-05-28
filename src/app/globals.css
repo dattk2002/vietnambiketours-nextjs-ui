@@ -27,6 +27,15 @@ body {
 }
 
 @layer utilities {
+  .link {
+  /* Các thuộc tính CSS chung cho liên kết */
+}
+
+.link.active {
+  font-weight: bold;
+  color: red; /* hoặc bất kỳ màu nào bạn muốn sử dụng để chỉ thị liên kết hoạt động */
+}
+
   .text-balance {
     text-wrap: balance;
   }

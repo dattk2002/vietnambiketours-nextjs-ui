@@ -4,6 +4,9 @@ import Footer from '../components/Footer'
 import type { AppProps } from 'next/app'
 
 function MyApp({ Component, pageProps }: AppProps) {
+  console.log("pageProps", pageProps);
+
+  console.log("Component");
   return (
     <div className="flex flex-col min-h-screen bg-white">
       <Header />
@@ -12,6 +15,6 @@ function MyApp({ Component, pageProps }: AppProps) {
       </main>
       <Footer />
     </div>
-  )
+  );
 }
-export default MyApp
+export default MyApp;

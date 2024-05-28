@@ -1,10 +1,16 @@
 import React from "react";
 import Image from "next/image";
-
-const Cambodia = () => {
-  return (
-    <>
-      <div>
+// trả về prop có kiểu dữ liệu là string và country có kiểu dữ liệu là string
+type Props = {
+  country: string;
+};
+function VietnamImg({ country }: Props) {
+  if (country === "vietnam") {
+    return <div>Vietnam Img</div>;
+  }
+  if (country == "cambodia") {
+    return (
+      <>
         <div className="flex space-x-4 p-4 justify-center">
           <Image
             src="/images/Cambodia~~element141~~17.jpg"
@@ -37,10 +43,15 @@ const Cambodia = () => {
             height={150}
           />
         </div>
-      </div>
-      <h1>Cambodia Page</h1>
-    </>
-  );
-};
+      </>
+    );
+  }
 
-export default Cambodia;
+  if (country === "thailand") {
+    return <div>ThailandImg</div>;
+  }
+  if (country === "/") {
+    return <div>main</div>;
+  }
+}
+export default VietnamImg;
