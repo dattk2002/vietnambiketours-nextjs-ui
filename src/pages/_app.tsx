@@ -7,7 +7,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <div className="flex flex-col min-h-screen bg-white mx-auto w-7/12">
       <Header />
-      <main className="container  ">
+      <main className="container mx-auto ">
         <Component {...pageProps} />
       </main>
       <Footer />
