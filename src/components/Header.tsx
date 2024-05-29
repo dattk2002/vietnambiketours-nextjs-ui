@@ -11,7 +11,6 @@ import ImgCountry from "./img-country/ImgCountry";
 
 import { RiArrowRightSFill } from "react-icons/ri";
 
-
 // tạo 1 hàm Header
 const Header = () => {
   const [isMounted, setIsMounted] = useState(false);
@@ -39,57 +38,74 @@ const Header = () => {
           <Link
             className={`link ${pathname === "/" ? "active" : ""}`}
             href="/home"
-          ><div className="flex items-center font-bold hover:font-normal text-sm"> <RiArrowRightSFill style={{ marginRight: '8px' }}/>
-          Home</div>
-           
+          >
+            <div className="flex items-center font-bold hover:font-normal text-sm">
+              <RiArrowRightSFill style={{ marginRight: "8px" }} />
+              Home
+            </div>
           </Link>
           <Link
             className={`link ${pathname === "/vietnam" ? "active" : ""}`}
             href="/vietnam"
-          ><div className="flex items-center font-bold hover:font-normal text-sm"> <RiArrowRightSFill style={{ marginRight: '8px' }}/>
-          Vietnam</div>
+          >
+            <div className="flex items-center font-bold hover:font-normal text-sm">
+              <RiArrowRightSFill style={{ marginRight: "8px" }} />
+              Vietnam
+            </div>
           </Link>
           <Link
             className={`link ${pathname === "/cambodia" ? "active" : ""}`}
             href="/cambodia"
           >
-            <div className="flex items-center font-bold hover:font-normal text-sm"> <RiArrowRightSFill style={{ marginRight: '8px' }}/>
-          Cambodia</div>
+            <div className="flex items-center font-bold hover:font-normal text-sm">
+              <RiArrowRightSFill style={{ marginRight: "8px" }} />
+              Cambodia
+            </div>
           </Link>
           <Link
             className={`link ${pathname === "/thailand" ? "active" : ""}`}
             href="/thailand"
           >
-            <div className="flex items-center font-bold hover:font-normal text-sm"> <RiArrowRightSFill style={{ marginRight: '8px' }}/>
-          Thailand</div>
+            <div className="flex items-center font-bold hover:font-normal text-sm">
+              <RiArrowRightSFill style={{ marginRight: "8px" }} />
+              Thailand
+            </div>
           </Link>
           <Link
             className="link"
             href="https://www.facebook.com/MyanmarBicycleTours"
           >
-           <div className="flex items-center font-bold hover:font-normal text-sm"> <RiArrowRightSFill style={{ marginRight: '8px' }}/>
-          Myanmar</div>
+            <div className="flex items-center font-bold hover:font-normal text-sm">
+              <RiArrowRightSFill style={{ marginRight: "8px" }} />
+              Myanmar
+            </div>
           </Link>
           <Link
             className={`link ${pathname === "/multi-country" ? "active" : ""}`}
             href="/multi-country"
           >
-            <div className="flex items-center font-bold hover:font-normal text-sm"> <RiArrowRightSFill style={{ marginRight: '8px' }}/>
-          Multi-Country</div>
+            <div className="flex items-center font-bold hover:font-normal text-sm">
+              <RiArrowRightSFill style={{ marginRight: "8px" }} />
+              Multi-Country
+            </div>
           </Link>
           <Link
             className={`link ${pathname === "/reviews" ? "active" : ""}`}
             href="/reviews"
           >
-            <div className="flex items-center font-bold hover:font-normal text-sm"> <RiArrowRightSFill style={{ marginRight: '8px' }}/>
-          Reviews</div>
+            <div className="flex items-center font-bold hover:font-normal text-sm">
+              <RiArrowRightSFill style={{ marginRight: "8px" }} />
+              Reviews
+            </div>
           </Link>
           <Link
             className={`link ${pathname === "/contact-us" ? "active" : ""}`}
             href="/contact-us"
           >
-            <div className="flex items-center font-bold hover:font-normal text-sm"> <RiArrowRightSFill style={{ marginRight: '8px' }}/>
-          Contact us</div>
+            <div className="flex items-center font-bold hover:font-normal text-sm">
+              <RiArrowRightSFill style={{ marginRight: "8px" }} />
+              Contact us
+            </div>
           </Link>
         </nav>
       </div>
