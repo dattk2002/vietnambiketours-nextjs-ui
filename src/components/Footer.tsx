@@ -2,18 +2,19 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer className="text-green-800 py-8 px-16">
-      <div className="container mx-auto px-72">
-        <div className="flex flex-col md:flex-row justify-evenly">
+    <footer className="text-green-800 py-8 ">
+      <div className='divide-y'></div>
+      <div className="container mx-auto">
+        <div className="flex flex-col md:flex-row justify-between border-t border-gray-900 ">
           {/* Contact Information Section */}
-          <div className="mb-4 md:mb-0">
+          <div className="mb-4 md:mb-0 pt-4 pl-2">
             <h4 className="text-xs">VIETNAM</h4>
             <p className="text-xs">Head Office & Bike shop - <a href="https://example.com" className="text-black">map & Connect</a></p>
             <p className="text-xs">Tel/Zalo/WhatsApp (+84) 855075999</p>
             <p className="text-xs">Email: <a href="mailto:info@vietnambiketours.com" className="text-black">info@vietnambiketours.com</a></p>
             <p className="text-xs">Add: 165 Nguyen Thi Nhung str., Thu Duc Dist., Ho Chi Minh city, Vietnam</p>
           </div>
-          <div>
+          <div className='pt-4'>
             <h4 className="text-xs">UNITED STATES</h4>
             <p className="text-xs">Tel/WhatsApp: (+1) 214 769 7663</p>
             <p className="text-xs">Email: <a href="mailto:robert.USA@vietnambiketours.com" className="text-black text-xs ">robert.USA@vietnambiketours.com</a></p>
@@ -22,7 +23,7 @@ const Footer = () => {
         </div>
         <div className="mt-6 border-t border-gray-700 pt-4">
           {/* Links Section */}
-          <div className="flex flex-wrap justify-center space-x-2 text-xs">
+          <div className="flex flex-wrap justify-center space-x-2 text-xs ">
             <a href="#" className="hover:text-black">About us</a>
             <span className="text-black">|</span>
             <a href="#" className="hover:text-black">Biking guides</a>
