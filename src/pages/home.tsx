@@ -1,3 +1,4 @@
+import FacebookFrame from "@/components/FacebookFrame";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -40,11 +41,11 @@ const Home = () => {
             </div>
             <div>
               <span className="flex gap-[1px] pl-9 pt-3">
-                <FaCircle style={{color: "#00aa6c;"}}/>
-                <FaCircle style={{color: "#00aa6c;"}}/>
-                <FaCircle style={{color: "#00aa6c;"}}/>
-                <FaCircle style={{color: "#00aa6c;"}}/>
-                <FaCircleHalfStroke  style={{color: "#00aa6c;"}}/>
+                <FaCircle style={{color: "#00aa6c"}}/>
+                <FaCircle style={{color: "#00aa6c"}}/>
+                <FaCircle style={{color: "#00aa6c"}}/>
+                <FaCircle style={{color: "#00aa6c"}}/>
+                <FaCircleHalfStroke  style={{color: "#00aa6c"}}/>
               </span>
               <span className="pl-9 text-[11px]">626 reviews</span>
             </div>
@@ -112,6 +113,7 @@ const Home = () => {
             who enjoy outdoor activities and want a unique travel experience in
             these fascinating countries.
           </p>
+          <FacebookFrame />
         </div>
       </div>
     </>

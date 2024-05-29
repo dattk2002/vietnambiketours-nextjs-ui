@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import SlugCountry from "@/components/slug-country/SlugCountry";
+import FacebookFrame from "@/components/FacebookFrame";
 
 const Cambodia = () => {
   return (

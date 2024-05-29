@@ -1,3 +1,4 @@
+import FacebookFrame from "@/components/FacebookFrame";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -39,16 +40,16 @@ const HomePage = () => {
             </div>
             <div>
               <span className="flex gap-[1px] pl-9 pt-3">
-                <FaCircle style={{ color: "#00aa6c;" }} />
-                <FaCircle style={{ color: "#00aa6c;" }} />
-                <FaCircle style={{ color: "#00aa6c;" }} />
-                <FaCircle style={{ color: "#00aa6c;" }} />
-                <FaCircleHalfStroke style={{ color: "#00aa6c;" }} />
+                <FaCircle style={{ color: "#00aa6c" }} />
+                <FaCircle style={{ color: "#00aa6c" }} />
+                <FaCircle style={{ color: "#00aa6c" }} />
+                <FaCircle style={{ color: "#00aa6c" }} />
+                <FaCircleHalfStroke style={{ color: "#00aa6c" }} />
               </span>
               <span className="pl-9 text-[11px]">626 reviews</span>
             </div>
             <div>
-              <Link target="_blank" href="/https://www.tripadvisor.com/">
+              <Link target="_blank" href="https://www.tripadvisor.com/">
                 <Image
                   src="https://www.tripadvisor.com/img/cdsi/img2/branding/v2/Tripadvisor_lockup_horizontal_secondary_registered-18034-2.svg"
                   width={200}
@@ -117,8 +118,11 @@ const HomePage = () => {
             who enjoy outdoor activities and want a unique travel experience in
             these fascinating countries.
           </p>
+          <FacebookFrame />
         </div>
+        
       </div>
+      
     </>
   );
 };

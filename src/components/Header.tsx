@@ -2,12 +2,16 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import React, { use } from "react";
+import React from "react";
 
-import { useRouter, usePathname } from "next/navigation";
+import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import "./../app/globals.css";
 import ImgCountry from "./img-country/ImgCountry";
+
+import { RiArrowRightSFill } from "react-icons/ri";
+
+
 // tạo 1 hàm Header
 const Header = () => {
   const [isMounted, setIsMounted] = useState(false);
@@ -31,54 +35,61 @@ const Header = () => {
         ></div>
 
         <ImgCountry country={Array.isArray(country) ? country[0] : ""} />
-        <nav className="flex space-x-4 text-black">
+        <nav className="flex space-x-4 text-custom-green">
           <Link
             className={`link ${pathname === "/" ? "active" : ""}`}
             href="/home"
-          >
-            Home
+          ><div className="flex items-center font-bold hover:font-normal text-sm"> <RiArrowRightSFill style={{ marginRight: '8px' }}/>
+          Home</div>
+           
           </Link>
           <Link
             className={`link ${pathname === "/vietnam" ? "active" : ""}`}
             href="/vietnam"
-          >
-            Vietnam
+          ><div className="flex items-center font-bold hover:font-normal text-sm"> <RiArrowRightSFill style={{ marginRight: '8px' }}/>
+          Vietnam</div>
           </Link>
           <Link
             className={`link ${pathname === "/cambodia" ? "active" : ""}`}
             href="/cambodia"
           >
-            Cambodia
+            <div className="flex items-center font-bold hover:font-normal text-sm"> <RiArrowRightSFill style={{ marginRight: '8px' }}/>
+          Cambodia</div>
           </Link>
           <Link
             className={`link ${pathname === "/thailand" ? "active" : ""}`}
             href="/thailand"
           >
-            Thailand
+            <div className="flex items-center font-bold hover:font-normal text-sm"> <RiArrowRightSFill style={{ marginRight: '8px' }}/>
+          Thailand</div>
           </Link>
           <Link
             className="link"
             href="https://www.facebook.com/MyanmarBicycleTours"
           >
-            Myanmar
+           <div className="flex items-center font-bold hover:font-normal text-sm"> <RiArrowRightSFill style={{ marginRight: '8px' }}/>
+          Myanmar</div>
           </Link>
           <Link
             className={`link ${pathname === "/multi-country" ? "active" : ""}`}
             href="/multi-country"
           >
-            Multi-Country
+            <div className="flex items-center font-bold hover:font-normal text-sm"> <RiArrowRightSFill style={{ marginRight: '8px' }}/>
+          Multi-Country</div>
           </Link>
           <Link
             className={`link ${pathname === "/reviews" ? "active" : ""}`}
             href="/reviews"
           >
-            Reviews
+            <div className="flex items-center font-bold hover:font-normal text-sm"> <RiArrowRightSFill style={{ marginRight: '8px' }}/>
+          Reviews</div>
           </Link>
           <Link
             className={`link ${pathname === "/contact-us" ? "active" : ""}`}
             href="/contact-us"
           >
-            Contact us
+            <div className="flex items-center font-bold hover:font-normal text-sm"> <RiArrowRightSFill style={{ marginRight: '8px' }}/>
+          Contact us</div>
           </Link>
         </nav>
       </div>
