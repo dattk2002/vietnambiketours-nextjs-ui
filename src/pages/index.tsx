@@ -8,7 +8,7 @@ import { FaCircleHalfStroke } from "react-icons/fa6";
 const HomePage = () => {
   return (
     <>
-      <div className="px-16 flex-col grid gap-4 sm:grid-cols-12 pt-5">
+      <div className="flex-col grid gap-4 sm:grid-cols-12 pt-5">
         <nav className="flex-col flex col-span-3 text-[13px]">
           <Link className="pb-2" href="/alone-traveler">
             Solo cyclist
@@ -120,9 +120,7 @@ const HomePage = () => {
           </p>
           <FacebookFrame />
         </div>
-        
       </div>
-      
     </>
   );
 };

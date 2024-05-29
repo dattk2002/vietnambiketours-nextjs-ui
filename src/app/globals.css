@@ -28,7 +28,11 @@ body {
 
   .link.active {
     font-weight: bold;
-    color: red; /* hoặc bất kỳ màu nào bạn muốn sử dụng để chỉ thị liên kết hoạt động */
+    color: rgb(
+      0,
+      0,
+      0
+    ); /* hoặc bất kỳ màu nào bạn muốn sử dụng để chỉ thị liên kết hoạt động */
   }
 
   .text-balance {
@@ -41,7 +45,7 @@ figure {
 figcaption {
   position: absolute;
   left: 100px;
-  top: 64px;
+  top: 62px;
   font-style: italic;
   font-size: 12px;
   text-decoration: underline;
