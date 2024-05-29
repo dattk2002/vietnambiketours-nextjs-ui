@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import { count } from "console";
 
 type Props = {
   country: string;
@@ -78,10 +77,19 @@ const CountryImg = [
       "/images/home-5.jpg",
     ],
   },
+  {
+    country: "home", // Trường hợp không tìm thấy country
+    img: [
+      "/images/home-1.jpg",
+      "/images/home-2.jpg",
+      "/images/home-3.jpg",
+      "/images/home-4.jpg",
+      "/images/home-5.jpg",
+    ],
+  },
 ];
 
-const ImgCoutry = ({ country }: Props) => {
-  console.log("countryv2", country);
+const ImgCountry = ({ country }: Props) => {
   // Tìm đối tượng country trong mảng CountryImg
   const selectedCountry = CountryImg.find((c) => c.country === country);
   // Nếu không tìm thấy, trả về null hoặc xử lý theo ý của bạn
@@ -104,4 +112,4 @@ const ImgCoutry = ({ country }: Props) => {
   );
 };
 
-export default ImgCoutry;
+export default ImgCountry;
