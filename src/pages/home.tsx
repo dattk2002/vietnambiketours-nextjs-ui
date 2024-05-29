@@ -5,11 +5,10 @@ import React from "react";
 import { FaCircle } from "react-icons/fa";
 import { FaCircleHalfStroke } from "react-icons/fa6";
 
-
 const Home = () => {
   return (
     <>
-      <div className="px-16 flex-col grid gap-4 sm:grid-cols-12 pt-5">
+      <div className="flex-col grid gap-4 sm:grid-cols-12 pt-5">
         <nav className="flex-col flex col-span-3 text-[13px]">
           <Link className="pb-2" href="/alone-traveler">
             Solo cyclist
@@ -41,11 +40,11 @@ const Home = () => {
             </div>
             <div>
               <span className="flex gap-[1px] pl-9 pt-3">
-                <FaCircle style={{color: "#00aa6c"}}/>
-                <FaCircle style={{color: "#00aa6c"}}/>
-                <FaCircle style={{color: "#00aa6c"}}/>
-                <FaCircle style={{color: "#00aa6c"}}/>
-                <FaCircleHalfStroke  style={{color: "#00aa6c"}}/>
+                <FaCircle style={{ color: "#00aa6c" }} />
+                <FaCircle style={{ color: "#00aa6c" }} />
+                <FaCircle style={{ color: "#00aa6c" }} />
+                <FaCircle style={{ color: "#00aa6c" }} />
+                <FaCircleHalfStroke style={{ color: "#00aa6c" }} />
               </span>
               <span className="pl-9 text-[11px]">626 reviews</span>
             </div>
@@ -62,8 +61,14 @@ const Home = () => {
             </div>
           </div>
           <div>
-            <Link href='/'>
-              <Image src="/images/wta-logo.png" className="w-[140px] pt-[6rem]"  width={200} height={200} alt="" />
+            <Link href="/">
+              <Image
+                src="/images/wta-logo.png"
+                className="w-[140px] pt-[6rem]"
+                width={200}
+                height={200}
+                alt=""
+              />
             </Link>
           </div>
         </nav>
