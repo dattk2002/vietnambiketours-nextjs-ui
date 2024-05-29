@@ -3,24 +3,24 @@
 import Image from "next/image";
 import Link from "next/link";
 import React, { use } from "react";
-import ImgCoutry from "@/components/img-country/ImgCoutry";
+
 import { useRouter, usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import "./../app/globals.css";
+import ImgCountry from "./img-country/ImgCountry";
 // tạo 1 hàm Header
 const Header = () => {
   const [isMounted, setIsMounted] = useState(false);
   const pathname = usePathname();
   const country = pathname ? pathname.replace("/", "").split("/") : [];
 
-  console.log(">>rest", pathname);
   useEffect(() => {
     setIsMounted(true);
   }, []);
   if (!isMounted) {
     return null;
   }
-  console.log(">>pathname", pathname === "/vietnam");
+
   return (
     <div className="">
       <div className="container mx-auto ">
@@ -29,7 +29,8 @@ const Header = () => {
           className="flex justify-between
         border-b-2 border-black w"
         ></div>
-        <ImgCoutry country={Array.isArray(country) ? country[0] : ""} />
+
+        <ImgCountry country={Array.isArray(country) ? country[0] : ""} />
         <nav className="flex space-x-4 text-black">
           <Link
             className={`link ${pathname === "/" ? "active" : ""}`}
