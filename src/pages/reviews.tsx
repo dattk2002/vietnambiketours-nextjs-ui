@@ -34,7 +34,7 @@ const Reviews = () => {
             <div className="pt-10 pb-10">
               <Link href="/https://www.tripadvisor.com/Attraction_Review-g293925-d1307686-Reviews-Vietnam_Bike_Tours-Ho_Chi_Minh_City.html">
                 <Image
-                  src="/images/tchotel_2020_L-14348-2.png"
+                  src="/images/travelers-choice.png"
                   width={500}
                   height={500}
                   alt=""
@@ -54,7 +54,7 @@ const Reviews = () => {
                     </span>
                   </div>
                   <Image
-                    src="/images/coe-14348-2.png"
+                    src="/images/tripadvisor-logo.png"
                     alt=""
                     width={500}
                     height={500}
@@ -75,7 +75,7 @@ const Reviews = () => {
                     </span>
                   </div>
                   <Image
-                    src="/images/coe-14348-2.png"
+                    src="/images/tripadvisor-logo.png"
                     alt=""
                     width={500}
                     height={500}
@@ -96,7 +96,7 @@ const Reviews = () => {
                     </span>
                   </div>
                   <Image
-                    src="/images/coe-14348-2.png"
+                    src="/images/tripadvisor-logo.png"
                     alt=""
                     width={500}
                     height={500}
@@ -117,7 +117,7 @@ const Reviews = () => {
                     </span>
                   </div>
                   <Image
-                    src="/images/coe-14348-2.png"
+                    src="/images/tripadvisor-logo.png"
                     alt=""
                     width={500}
                     height={500}
@@ -138,7 +138,7 @@ const Reviews = () => {
                     </span>
                   </div>
                   <Image
-                    src="/images/coe-14348-2.png"
+                    src="/images/tripadvisor-logo.png"
                     alt=""
                     width={500}
                     height={500}
@@ -159,7 +159,7 @@ const Reviews = () => {
                     </span>
                   </div>
                   <Image
-                    src="/images/coe-14348-2.png"
+                    src="/images/tripadvisor-logo.png"
                     alt=""
                     width={500}
                     height={500}
@@ -180,7 +180,7 @@ const Reviews = () => {
                     </span>
                   </div>
                   <Image
-                    src="/images/coe-14348-2.png"
+                    src="/images/tripadvisor-logo.png"
                     alt=""
                     width={500}
                     height={500}
@@ -201,7 +201,7 @@ const Reviews = () => {
                     </span>
                   </div>
                   <Image
-                    src="/images/coe-14348-2.png"
+                    src="/images/tripadvisor-logo.png"
                     alt=""
                     width={500}
                     height={500}
