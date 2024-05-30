@@ -27,7 +27,7 @@ const Header = () => {
   return (
     <div className="">
       <div className="container mx-auto ">
-        <Link href="http://localhost:3000/">
+        <Link href="/">
           <figure>
             <Image
               src="/images/logo_vnbt.jpg"
