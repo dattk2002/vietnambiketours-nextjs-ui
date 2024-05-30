@@ -36,8 +36,18 @@ const Header = () => {
           />
           <figcaption>Member of ATTA</figcaption>
         </figure>
+        <figure>
+          <Image
+            src="/images/logo_vnbt.jpg"
+            alt="Logo"
+            width={238}
+            height={80}
+          />
+          <figcaption>Member of ATTA</figcaption>
+        </figure>
         <div
           className="flex justify-between
+        border-b-2 border-opacity-40 border-black w"
         border-b-2 border-opacity-40 border-black w"
         ></div>
 
