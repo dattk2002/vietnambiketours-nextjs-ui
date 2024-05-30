@@ -36,7 +36,6 @@ const Vietnam = () => {
         <div className="col-span-9">
           <p className="text-[13px] pb-3">
             <SlugCountry />
-            &gt; Vietnam Overview
           </p>
           <p className="text-[13px] ">VIETNAM OVERVIEW</p>
           <p className="text-[13px] pb-3">
