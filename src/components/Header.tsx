@@ -36,13 +36,23 @@ const Header = () => {
           />
           <figcaption>Member of ATTA</figcaption>
         </figure>
+        <figure>
+          <Image
+            src="/images/logo_vnbt.jpg"
+            alt="Logo"
+            width={238}
+            height={80}
+          />
+          <figcaption>Member of ATTA</figcaption>
+        </figure>
         <div
           className="flex justify-between
+        border-b-2 border-opacity-40 border-black w"
         border-b-2 border-opacity-40 border-black w"
         ></div>
 
         <ImgCountry country={Array.isArray(country) ? country[0] : ""} />
-        <nav className="flex space-x-4 text-custom-green border-t-2 border-black border-opacity-25">
+        <nav className="flex space-x-4 text-custom-green border-t-[1px] pt-2 border-black border-opacity-25">
           <Link
             className={`link ${pathname === "/" ? "active" : ""}`}
             href="/home"
