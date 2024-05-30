@@ -42,7 +42,7 @@ const Header = () => {
         ></div>
 
         <ImgCountry country={Array.isArray(country) ? country[0] : ""} />
-        <nav className="flex space-x-4 text-custom-green border-t-2 border-black border-opacity-25">
+        <nav className="flex space-x-4 text-custom-green border-t-[1px] pt-2 border-black border-opacity-25">
           <Link
             className={`link ${pathname === "/" ? "active" : ""}`}
             href="/home"
