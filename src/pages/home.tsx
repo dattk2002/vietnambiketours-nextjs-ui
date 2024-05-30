@@ -69,14 +69,6 @@ const Home = () => {
                 height={200}
                 alt=""
               />
-            <Link href="/">
-              <Image
-                src="/images/wta-logo.png"
-                className="w-[140px] pt-[6rem]"
-                width={200}
-                height={200}
-                alt=""
-              />
             </Link>
           </div>
         </nav>
