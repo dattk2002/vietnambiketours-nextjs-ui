@@ -27,15 +27,17 @@ const Header = () => {
   return (
     <div className="">
       <div className="container mx-auto ">
-        <figure>
-          <Image
-            src="/images/logo_vnbt.jpg"
-            alt="Logo"
-            width={238}
-            height={80}
-          />
-          <figcaption>Member of ATTA</figcaption>
-        </figure>
+        <Link href="/">
+          <figure>
+            <Image
+              src="/images/logo_vnbt.jpg"
+              alt="Logo"
+              width={238}
+              height={80}
+            />
+            <figcaption>Member of ATTA</figcaption>
+          </figure>
+        </Link>
 
         <div
           className="flex justify-between

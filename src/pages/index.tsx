@@ -34,7 +34,10 @@ const HomePage = () => {
           </Link>
           <div>
             <div className="pt-10">
-              <Link href="/" className="font-bold text-1.75 underline">
+              <Link
+                href="/"
+                className="font-bold text-1.75 underline text-black"
+              >
                 Vietnam Bike Tours
               </Link>
             </div>

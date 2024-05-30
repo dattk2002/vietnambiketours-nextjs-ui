@@ -46,7 +46,7 @@ const Reviews = () => {
               <div className="border text-center border-green-400 w-[148px] font-reviews relative ">
                 <Link href="/https://www.tripadvisor.com/Attraction_Review-g293925-d1307686-Reviews-Vietnam_Bike_Tours-Ho_Chi_Minh_City.html">
                   <div className="absolute left-0 right-0 top-1">
-                    <p className="font-bold text-[10px] font-trips">
+                    <p className="font-bold text-[10px]  text-black font-trips">
                       Certificate of Excellence 2019
                     </p>
                     <span className="font-light text-[10px] underline">
@@ -67,7 +67,7 @@ const Reviews = () => {
               <div className="border text-center border-green-400 w-[148px] font-reviews relative ">
                 <Link href="/https://www.tripadvisor.com/Attraction_Review-g293925-d1307686-Reviews-Vietnam_Bike_Tours-Ho_Chi_Minh_City.html">
                   <div className="absolute left-0 right-0 top-1">
-                    <p className="font-bold text-[10px] font-trips">
+                    <p className="font-bold text-[10px]  text-black font-trips">
                       Certificate of Excellence 2018
                     </p>
                     <span className="font-light text-[10px] underline">
@@ -88,7 +88,7 @@ const Reviews = () => {
               <div className="border text-center border-green-400 w-[148px] font-reviews relative ">
                 <Link href="/https://www.tripadvisor.com/Attraction_Review-g293925-d1307686-Reviews-Vietnam_Bike_Tours-Ho_Chi_Minh_City.html">
                   <div className="absolute left-0 right-0 top-1">
-                    <p className="font-bold text-[10px] font-trips">
+                    <p className="font-bold text-[10px]  text-black font-trips">
                       Certificate of Excellence 2017
                     </p>
                     <span className="font-light text-[10px] underline">
@@ -109,7 +109,7 @@ const Reviews = () => {
               <div className="border text-center border-green-400 w-[148px] font-reviews relative ">
                 <Link href="/https://www.tripadvisor.com/Attraction_Review-g293925-d1307686-Reviews-Vietnam_Bike_Tours-Ho_Chi_Minh_City.html">
                   <div className="absolute left-0 right-0 top-1">
-                    <p className="font-bold text-[10px] font-trips">
+                    <p className="font-bold text-[10px]  text-black font-trips">
                       Certificate of Excellence 2016
                     </p>
                     <span className="font-light text-[10px] underline">
@@ -130,7 +130,7 @@ const Reviews = () => {
               <div className="border text-center border-green-400 w-[148px] font-reviews relative ">
                 <Link href="/https://www.tripadvisor.com/Attraction_Review-g293925-d1307686-Reviews-Vietnam_Bike_Tours-Ho_Chi_Minh_City.html">
                   <div className="absolute left-0 right-0 top-1">
-                    <p className="font-bold text-[10px] font-trips">
+                    <p className="font-bold text-[10px]  text-black font-trips">
                       Certificate of Excellence 2015
                     </p>
                     <span className="font-light text-[10px] underline">
@@ -151,7 +151,7 @@ const Reviews = () => {
               <div className="border text-center border-green-400 w-[148px] font-reviews relative ">
                 <Link href="/https://www.tripadvisor.com/Attraction_Review-g293925-d1307686-Reviews-Vietnam_Bike_Tours-Ho_Chi_Minh_City.html">
                   <div className="absolute left-0 right-0 top-1">
-                    <p className="font-bold text-[10px] font-trips">
+                    <p className="font-bold text-[10px]  text-black font-trips">
                       Certificate of Excellence 2014
                     </p>
                     <span className="font-light text-[10px] underline">
@@ -172,7 +172,7 @@ const Reviews = () => {
               <div className="border text-center border-green-400 w-[148px] font-reviews relative ">
                 <Link href="/https://www.tripadvisor.com/Attraction_Review-g293925-d1307686-Reviews-Vietnam_Bike_Tours-Ho_Chi_Minh_City.html">
                   <div className="absolute left-0 right-0 top-1">
-                    <p className="font-bold text-[10px] font-trips">
+                    <p className="font-bold text-[10px]  text-black font-trips">
                       Certificate of Excellence 2013
                     </p>
                     <span className="font-light text-[10px] underline">
@@ -193,7 +193,7 @@ const Reviews = () => {
               <div className="border text-center border-green-400 w-[148px] font-reviews relative ">
                 <Link href="/https://www.tripadvisor.com/Attraction_Review-g293925-d1307686-Reviews-Vietnam_Bike_Tours-Ho_Chi_Minh_City.html">
                   <div className="absolute left-0 right-0 top-1">
-                    <p className="font-bold text-[10px] font-trips">
+                    <p className="font-bold text-[10px]  text-black font-trips">
                       Certificate of Excellence 2012
                     </p>
                     <span className="font-light text-[10px] underline">
