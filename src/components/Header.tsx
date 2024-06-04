@@ -27,28 +27,30 @@ const Header = () => {
   return (
     <div className="">
       <div className="container mx-auto ">
-        <figure>
-          <Image
-            src="/images/logo_vnbt.jpg"
-            alt="Logo"
-            width={238}
-            height={80}
-          />
-          <figcaption>Member of ATTA</figcaption>
-        </figure>
+        <Link href="/">
+          <figure>
+            <Image
+              src="/images/logo_vnbt.jpg"
+              alt="Logo"
+              width={238}
+              height={80}
+            />
+            <figcaption>Member of ATTA</figcaption>
+          </figure>
+        </Link>
+
         <div
           className="flex justify-between
         border-b-2 border-opacity-40 border-black w"
         ></div>
 
         <ImgCountry country={Array.isArray(country) ? country[0] : ""} />
-        <nav className="flex space-x-4 text-custom-green border-t-2 border-black border-opacity-25">
+        <nav className="flex space-x-4 text-custom-green border-t-[1px] pt-2 border-black border-opacity-25">
           <Link
             className={`link ${pathname === "/" ? "active" : ""}`}
             href="/home"
           >
             <div className="flex items-center font-bold hover:font-normal text-sm">
-              {" "}
               <RiArrowRightSFill style={{ marginRight: "8px" }} />
               Home
             </div>
@@ -58,7 +60,6 @@ const Header = () => {
             href="/vietnam"
           >
             <div className="flex items-center font-bold hover:font-normal text-sm">
-              {" "}
               <RiArrowRightSFill style={{ marginRight: "8px" }} />
               Vietnam
             </div>
@@ -68,7 +69,6 @@ const Header = () => {
             href="/cambodia"
           >
             <div className="flex items-center font-bold hover:font-normal text-sm">
-              {" "}
               <RiArrowRightSFill style={{ marginRight: "8px" }} />
               Cambodia
             </div>
@@ -78,7 +78,6 @@ const Header = () => {
             href="/thailand"
           >
             <div className="flex items-center font-bold hover:font-normal text-sm">
-              {" "}
               <RiArrowRightSFill style={{ marginRight: "8px" }} />
               Thailand
             </div>
@@ -88,7 +87,6 @@ const Header = () => {
             href="https://www.facebook.com/MyanmarBicycleTours"
           >
             <div className="flex items-center font-bold hover:font-normal text-sm">
-              {" "}
               <RiArrowRightSFill style={{ marginRight: "8px" }} />
               Myanmar
             </div>
@@ -98,7 +96,6 @@ const Header = () => {
             href="/multi-country"
           >
             <div className="flex items-center font-bold hover:font-normal text-sm">
-              {" "}
               <RiArrowRightSFill style={{ marginRight: "8px" }} />
               Multi-Country
             </div>
@@ -108,7 +105,6 @@ const Header = () => {
             href="/reviews"
           >
             <div className="flex items-center font-bold hover:font-normal text-sm">
-              {" "}
               <RiArrowRightSFill style={{ marginRight: "8px" }} />
               Reviews
             </div>
@@ -118,7 +114,6 @@ const Header = () => {
             href="/contact-us"
           >
             <div className="flex items-center font-bold hover:font-normal text-sm">
-              {" "}
               <RiArrowRightSFill style={{ marginRight: "8px" }} />
               Contact us
             </div>
