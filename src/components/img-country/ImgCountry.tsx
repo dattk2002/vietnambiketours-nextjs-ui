@@ -97,7 +97,7 @@ const ImgCountry = ({ country }: Props) => {
   // Lấy danh sách hình ảnh tương ứng với country đã chọn
   const images = selectedCountry.img;
   return (
-    <div className="flex space-x-4 p-4 justify-center">
+    <div className="flex space-x-4 p-4 justify-center overflow-x-auto">
       {/* Sử dụng map để render mỗi hình ảnh */}
       {images.map((image, index) => (
         <Image

@@ -7,17 +7,21 @@ import FacebookFrame from "@/components/FacebookFrame";
 const Cambodia = () => {
   return (
     <>
-      <div className="px-16 flex-col grid gap-4 sm:grid-cols-12 pt-5">
-        <nav className="flex-col flex col-span-3 text-[13px]">
-          <Link className="pb-2" href="/alone-traveler">
-            Biking from Angkor Wat
-          </Link>
-          <Link className="pb-2" href="group-bike-tours">
-            Biking from Phnom Penh
-          </Link>
+      <div className="grid grid-cols-1 sm:grid-cols-12 gap-4 sm:pt-5">
+        <nav className="sm:col-span-3 text-[13px]">
+          <div className="pb-2">
+            <Link className="pb-2" href="/alone-traveler">
+              Biking from Angkor Wat
+            </Link>
+          </div>
+          <div className="pb-2">
+            <Link className="pb-2" href="group-bike-tours">
+              Biking from Phnom Penh
+            </Link>
+          </div>
         </nav>
 
-        <div className="col-span-9">
+        <div className="col-span-1 sm:col-span-9 text-[13px]">
           <p className="text-[13px] pb-3">
             <SlugCountry />
           </p>
@@ -53,11 +57,10 @@ const Cambodia = () => {
           <div>
             {/* nhúng video  */}
             <iframe
-              width="560"
-              height="315"
               src="https://www.youtube.com/embed/427bpKfoq2Q?si=lCoZL7BNS5sxlAeW"
               title="YouTube video player"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              className="w-full h-[315px]"
             />
           </div>
         </div>

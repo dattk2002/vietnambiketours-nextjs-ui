@@ -5,11 +5,13 @@ import React from "react";
 const Thailand = () => {
   return (
     <>
-      <div className="px-16 flex-col grid gap-4 sm:grid-cols-12 pt-5">
+      <div className="flex-col grid gap-4 sm:grid-cols-12 pt-5">
         <nav className="flex-col flex col-span-3 text-[13px]">
-          <Link className="pb-2" href="/alone-traveler">
-            Biking from Bangkok
-          </Link>
+          <div className="pb-2">
+            <Link className="pb-2" href="/alone-traveler">
+              Biking from Bangkok
+            </Link>
+          </div>
         </nav>
         <div className="col-span-9">
           <p className="text-[13px] pb-3">
@@ -58,11 +60,10 @@ const Thailand = () => {
           <div>
             {/* nhúng video  */}
             <iframe
-              width="560"
-              height="315"
               src="https://www.youtube.com/embed/427bpKfoq2Q?si=lCoZL7BNS5sxlAeW"
               title="YouTube video player"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              className="w-full h-[315px]"
             />
           </div>
         </div>
