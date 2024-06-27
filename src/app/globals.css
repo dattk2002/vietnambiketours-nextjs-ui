@@ -53,3 +53,12 @@ figcaption {
 .text-fs li {
   font-size: 13px;
 }
+p {
+  @apply mb-4;
+}
+.sha-dow {
+  box-shadow: 0 1px 4px 0 #666;
+}
+.text-pd{
+ @apply mb-[5px];
+}

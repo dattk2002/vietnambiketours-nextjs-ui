@@ -6,214 +6,65 @@ import { FaCircleHalfStroke } from "react-icons/fa6";
 const Reviews = () => {
   return (
     <>
-      <div className="px-16 flex-col grid gap-4 sm:grid-cols-12 pt-5">
-        <nav className="flex-col flex col-span-3 text-[13px]">
-          <Link className="pb-2" href="/alone-traveler">
-            Solo cyclist
-          </Link>
-          <Link className="pb-2" href="group-bike-tours">
-            Group-join
-          </Link>
-          <Link className="pb-2" href="/tailor-make-quote">
-            Customize your own
-          </Link>
-          <Link className="pb-2" href="/travel-inquiry">
-            Send an inquiry
-          </Link>
-          <Link className="pb-2" href="/visa">
-            Visa services
-          </Link>
-          <Link
-            className="pb-2"
-            href="https://xedapvietnam.com.vn/"
-            target="_blank"
-          >
-            Bike shop & rent
-          </Link>
-          <div>
-            <div className="pt-10 pb-10">
-              <Link href="/https://www.tripadvisor.com/Attraction_Review-g293925-d1307686-Reviews-Vietnam_Bike_Tours-Ho_Chi_Minh_City.html">
-                <Image
-                  src="/images/travelers-choice.png"
-                  width={500}
-                  height={500}
-                  alt=""
-                  className="w-[148px]"
-                />
-              </Link>
-            </div>
-            <div className="pb-5">
-              <div className="border text-center border-green-400 w-[148px] font-reviews relative ">
-                <Link href="/https://www.tripadvisor.com/Attraction_Review-g293925-d1307686-Reviews-Vietnam_Bike_Tours-Ho_Chi_Minh_City.html">
-                  <div className="absolute left-0 right-0 top-1">
-                    <p className="font-bold text-[10px]  text-black font-trips">
-                      Certificate of Excellence 2019
-                    </p>
-                    <span className="font-light text-[10px] underline">
-                      Read Reviews
-                    </span>
-                  </div>
-                  <Image
-                    src="/images/tripadvisor-logo.png"
-                    alt=""
-                    width={500}
-                    height={500}
-                    className="h-[112px]"
-                  />
-                </Link>
-              </div>
-            </div>
-            <div className="pb-5">
-              <div className="border text-center border-green-400 w-[148px] font-reviews relative ">
-                <Link href="/https://www.tripadvisor.com/Attraction_Review-g293925-d1307686-Reviews-Vietnam_Bike_Tours-Ho_Chi_Minh_City.html">
-                  <div className="absolute left-0 right-0 top-1">
-                    <p className="font-bold text-[10px]  text-black font-trips">
-                      Certificate of Excellence 2018
-                    </p>
-                    <span className="font-light text-[10px] underline">
-                      Read Reviews
-                    </span>
-                  </div>
-                  <Image
-                    src="/images/tripadvisor-logo.png"
-                    alt=""
-                    width={500}
-                    height={500}
-                    className="h-[112px]"
-                  />
-                </Link>
-              </div>
-            </div>
-            <div className="pb-5">
-              <div className="border text-center border-green-400 w-[148px] font-reviews relative ">
-                <Link href="/https://www.tripadvisor.com/Attraction_Review-g293925-d1307686-Reviews-Vietnam_Bike_Tours-Ho_Chi_Minh_City.html">
-                  <div className="absolute left-0 right-0 top-1">
-                    <p className="font-bold text-[10px]  text-black font-trips">
-                      Certificate of Excellence 2017
-                    </p>
-                    <span className="font-light text-[10px] underline">
-                      Read Reviews
-                    </span>
-                  </div>
-                  <Image
-                    src="/images/tripadvisor-logo.png"
-                    alt=""
-                    width={500}
-                    height={500}
-                    className="h-[112px]"
-                  />
-                </Link>
-              </div>
-            </div>
-            <div className="pb-5">
-              <div className="border text-center border-green-400 w-[148px] font-reviews relative ">
-                <Link href="/https://www.tripadvisor.com/Attraction_Review-g293925-d1307686-Reviews-Vietnam_Bike_Tours-Ho_Chi_Minh_City.html">
-                  <div className="absolute left-0 right-0 top-1">
-                    <p className="font-bold text-[10px]  text-black font-trips">
-                      Certificate of Excellence 2016
-                    </p>
-                    <span className="font-light text-[10px] underline">
-                      Read Reviews
-                    </span>
-                  </div>
-                  <Image
-                    src="/images/tripadvisor-logo.png"
-                    alt=""
-                    width={500}
-                    height={500}
-                    className="h-[112px]"
-                  />
-                </Link>
-              </div>
-            </div>
-            <div className="pb-5">
-              <div className="border text-center border-green-400 w-[148px] font-reviews relative ">
-                <Link href="/https://www.tripadvisor.com/Attraction_Review-g293925-d1307686-Reviews-Vietnam_Bike_Tours-Ho_Chi_Minh_City.html">
-                  <div className="absolute left-0 right-0 top-1">
-                    <p className="font-bold text-[10px]  text-black font-trips">
-                      Certificate of Excellence 2015
-                    </p>
-                    <span className="font-light text-[10px] underline">
-                      Read Reviews
-                    </span>
-                  </div>
-                  <Image
-                    src="/images/tripadvisor-logo.png"
-                    alt=""
-                    width={500}
-                    height={500}
-                    className="h-[112px]"
-                  />
-                </Link>
-              </div>
-            </div>
-            <div className="pb-5">
-              <div className="border text-center border-green-400 w-[148px] font-reviews relative ">
-                <Link href="/https://www.tripadvisor.com/Attraction_Review-g293925-d1307686-Reviews-Vietnam_Bike_Tours-Ho_Chi_Minh_City.html">
-                  <div className="absolute left-0 right-0 top-1">
-                    <p className="font-bold text-[10px]  text-black font-trips">
-                      Certificate of Excellence 2014
-                    </p>
-                    <span className="font-light text-[10px] underline">
-                      Read Reviews
-                    </span>
-                  </div>
-                  <Image
-                    src="/images/tripadvisor-logo.png"
-                    alt=""
-                    width={500}
-                    height={500}
-                    className="h-[112px]"
-                  />
-                </Link>
-              </div>
-            </div>
-            <div className="pb-5">
-              <div className="border text-center border-green-400 w-[148px] font-reviews relative ">
-                <Link href="/https://www.tripadvisor.com/Attraction_Review-g293925-d1307686-Reviews-Vietnam_Bike_Tours-Ho_Chi_Minh_City.html">
-                  <div className="absolute left-0 right-0 top-1">
-                    <p className="font-bold text-[10px]  text-black font-trips">
-                      Certificate of Excellence 2013
-                    </p>
-                    <span className="font-light text-[10px] underline">
-                      Read Reviews
-                    </span>
-                  </div>
-                  <Image
-                    src="/images/tripadvisor-logo.png"
-                    alt=""
-                    width={500}
-                    height={500}
-                    className="h-[112px]"
-                  />
-                </Link>
-              </div>
-            </div>
-            <div className="pb-5">
-              <div className="border text-center border-green-400 w-[148px] font-reviews relative ">
-                <Link href="/https://www.tripadvisor.com/Attraction_Review-g293925-d1307686-Reviews-Vietnam_Bike_Tours-Ho_Chi_Minh_City.html">
-                  <div className="absolute left-0 right-0 top-1">
-                    <p className="font-bold text-[10px]  text-black font-trips">
-                      Certificate of Excellence 2012
-                    </p>
-                    <span className="font-light text-[10px] underline">
-                      Read Reviews
-                    </span>
-                  </div>
-                  <Image
-                    src="/images/tripadvisor-logo.png"
-                    alt=""
-                    width={500}
-                    height={500}
-                    className="h-[112px]"
-                  />
-                </Link>
-              </div>
-            </div>
+      <div className="grid grid-cols-1 sm:grid-cols-12 gap-4 sm:pt-5">
+        <nav className="sm:col-span-3 text-[13px]">
+          <div className="pb-2">
+            <Link href="/alone-traveler">Solo cyclist</Link>
+          </div>
+          <div className="pb-2">
+            <Link href="group-bike-tours">Group-join</Link>
+          </div>
+          <div className="pb-2">
+            <Link href="/tailor-make-quote">Customize your own</Link>
+          </div>
+          <div className="pb-2">
+            <Link href="/travel-inquiry">Send an inquiry</Link>
+          </div>
+          <div className="pb-2">
+            <Link href="/visa">Visa services</Link>
+          </div>
+          <div className="pb-2">
+            <Link href="https://xedapvietnam.com.vn/" target="_blank">
+              Bike shop & rent
+            </Link>
+          </div>
+          <div className="pt-10 max-md:hidden">
+            <Link className="font-bold text-1.75 underline text-black" href="/">
+              Vietnam Bike Tours
+            </Link>
+          </div>
+          <div className="flex gap-[1px] pl-5 pt-3 max-md:hidden">
+            {[...Array(5)].map((_, index) => (
+              <FaCircle key={index} style={{ color: "#00aa6c" }} />
+            ))}
+            <FaCircleHalfStroke style={{ color: "#00aa6c" }} />
+          </div>
+          <div className="pl-8 text-[11px] max-md:hidden">626 reviews</div>
+          <div className="max-md:hidden">
+            <Link href="https://www.tripadvisor.com/" target="_blank">
+              <Image
+                src="https://www.tripadvisor.com/img/cdsi/img2/branding/v2/Tripadvisor_lockup_horizontal_secondary_registered-18034-2.svg"
+                width={200}
+                height={200}
+                alt=""
+                className="w-[115px]"
+              />
+            </Link>
+          </div>
+          <div className="max-md:hidden">
+            <Link href="/">
+              <Image
+                src="/images/wta-logo.png"
+                className="w-[140px] pt-[6rem]"
+                width={200}
+                height={200}
+                alt=""
+              />
+            </Link>
           </div>
         </nav>
 
-        <div className="col-span-9">
+        <div className="col-span-1 sm:col-span-9 text-[13px]">
           <p className="text-[13px] ">TESTIMONIALS</p>
           <div className="border text-left border-green-400 w-[468px] h-[334px] font-reviews pl-3 pt-3 mt-10 mb-20">
             <Link href="/https://www.tripadvisor.com/Attraction_Review-g293925-d1307686-Reviews-Vietnam_Bike_Tours-Ho_Chi_Minh_City.html">
@@ -283,13 +134,13 @@ const Reviews = () => {
                   <span className="font-light text-[10px] underline">
                     Read Reviews
                   </span> */}
-                  <span className="text-[11px] text-black underline">
-                    Read Reviews
-                  </span>
-                  <span className="border-l border-gray-400 h-full mx-2"></span>
-                  <span className="text-[11px] text-black underline">
-                    Read Reviews
-                  </span>
+                <span className="text-[11px] text-black underline">
+                  Read Reviews
+                </span>
+                <span className="border-l border-gray-400 h-full mx-2"></span>
+                <span className="text-[11px] text-black underline">
+                  Read Reviews
+                </span>
               </div>
             </Link>
           </div>
