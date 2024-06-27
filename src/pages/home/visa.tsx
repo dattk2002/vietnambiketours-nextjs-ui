@@ -5,9 +5,7 @@ import { useRouter } from "next/router";
 import GroupBikeTours from "./group-bike-tours";
 import TailorMakeQuote from "./tailor-make-quote";
 import TravelInquiry from "./travel-inquiry";
-import Visa from "./visa";
-
-const AloneTraveler = () => {
+const Visa = () => {
   const router = useRouter();
   const { pathname } = router;
 
@@ -54,7 +52,7 @@ const AloneTraveler = () => {
           </button>
         </div>
         <div className="pb-2">
-          <button onClick={() => navigateTo("visa")}>Visa services</button>
+          <button onClick={() => navigateTo("#")}>Visa services</button>
         </div>
         <div className="pb-2">
           <Link href="https://xedapvietnam.com.vn/" target="_blank">
@@ -64,26 +62,24 @@ const AloneTraveler = () => {
       </nav>
 
       <div className="col-span-1 sm:col-span-9 text-[13px]">
-        <SlugCountry />
+        <SlugCountry></SlugCountry>
         <div>
-          <h6 className="pt-4">SOLO TRAVELER</h6>
-          <p>Looking to make some new friends?</p>
           <p>
-            If you are travelling alone, we encourage you to take advantage of
-            the forum below to meet new travel companions. If an entry does not
-            already exist for the tour you wish to go on, please feel free to
-            “sign” the guest book and create a new entry.
+            When you book a tour with us, we do free of charge of the visa
+            service.{" "}
           </p>
-        </div>
-        <div className="flex gap-3">
-          <a className="cursor-pointer underline text-blue-600">
-            Sign GuestBook
-          </a>
-          <a className="cursor-pointer underline text-blue-600">View Entries</a>
+          <li className="pl-5">Vietnam E-visa government website</li>
+          <p className="pt-4 underline text-black">
+            https://evisa.xuatnhapcanh.gov.vn/en_US/web/guest/trang-chu-ttdt
+          </p>
+          <li className="pl-5">Myanmar E-visa government website</li>
+          <p className="pt-4 underline text-black">
+            https://evisa.moip.gov.mm/
+          </p>
         </div>
       </div>
     </div>
   );
 };
 
-export default AloneTraveler;
+export default Visa;

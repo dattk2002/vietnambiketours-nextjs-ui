@@ -14,9 +14,11 @@ const SlugCountry = () => {
     path === "Multi-country" ||
     path == "Cambodia"
   ) {
-    return pathname !== "/" ? (
+
+    return pathname !== ">" ? (
       <span>{`Home > ${path} > ${path} Overview`}</span>
     ) : null;
+
   }
 
   return pathname !== "/" ? <span>{`Home > ${path}`}</span> : null;
