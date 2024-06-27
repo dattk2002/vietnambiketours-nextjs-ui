@@ -212,12 +212,12 @@ const HCM = () => {
                     <li className="pl-5 pb-1 pt-2">{item.attributes.Title}</li>
                     <p className="text-pd">
                       {item.attributes.Expert}{" "}
-                      <a
+                      <Link
                         href="mailto:infor@vietnambiketours.com"
                         className="underline text-black"
                       >
                         More details
-                      </a>
+                      </Link>
                     </p>
                   </div>
                 </div>

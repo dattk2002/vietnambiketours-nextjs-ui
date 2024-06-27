@@ -151,9 +151,9 @@ const MekongDelta = () => {
               <div>
                 <p>
                   {" "}
-                  <a className="underline text-black" href="/contact-us">
+                  <Link className="underline text-black" href="/contact-us">
                     Let us know
-                  </a>{" "}
+                  </Link>{" "}
                   if our organized tours don&apos;t meet your desire or
                   expectation. We can tailor another to accommodate your
                   preferences. You may customize your own tour.
