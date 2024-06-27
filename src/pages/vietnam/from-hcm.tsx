@@ -196,12 +196,12 @@ const HCM = () => {
                 Take this tour of 10km ride to your hotel. It brings you
                 different feelings of the dynamic city. Your luggage is taken
                 care.{" "}
-                <a
+                <Link
                   href="mailto:infor@vietnambiketours.com"
                   className="underline text-black"
                 >
                   Email Us
-                </a>
+                </Link>
               </p>
             </div>
 
@@ -227,9 +227,9 @@ const HCM = () => {
             <div>
               <p>
                 {" "}
-                <a className="underline text-black" href="/contact-us">
+                <Link className="underline text-black" href="/contact-us">
                   Let us know
-                </a>{" "}
+                </Link>{" "}
                 if our organized tours don&apos;t meet your desire or
                 expectation. We can tailor another to accommodate your
                 preferences. You may customize your own tour.
